@@ -1,7 +1,7 @@
 import { Link,NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoS from '../../assets/images/logo-s.png';
-import LogoSub from '../../assets/images/logo_sub.png';
+//import LogoSub from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope, faFolderOpen, faGears, faBars, faClose} from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
@@ -17,8 +17,7 @@ return(
             to='/'
             onClick={() => setShowNav(false)}
         >
-            <img src={LogoS} alt ="logo" />
-            <img src={LogoSub} alt ="logo" />  
+            <img src={LogoS} alt ="logo" />  
         </Link>
         <nav className={ShowNav ? 'mobile-show': ''}>
             <NavLink 

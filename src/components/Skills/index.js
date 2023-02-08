@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
+import TextShpere from './TextSphere';
 
 const Skills = () =>{
 
@@ -62,7 +63,7 @@ const Skills = () =>{
                     </p>
 
                 </div>
-
+                <TextShpere />
             </div>
         
         <Loader type ='pacman'/>
